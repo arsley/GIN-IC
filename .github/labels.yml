@@ -1,0 +1,23 @@
+labels:
+  - name: kind/proactive
+    description: Categorizes issue or PR as related to proactive tasks.
+    color: 9CCC65
+  - name: kind/reactive
+    description: Categorizes issue or PR as related to reactive tasks.
+    color: FFA000
+  - name: nice/hoge
+    description: HOGEHOGE
+    color: ff0000
+  - name: nice/fuga
+    description: FUGAFUGA
+    color: 00ff00
+
+repos:
+  - name: arsley/practices
+    labels:
+      - kind/proactive
+      - kind/reactive
+  - name: arsley/GIN-IC
+    labels:
+      - nice/hoge
+      - nice/fuga
